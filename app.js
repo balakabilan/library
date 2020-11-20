@@ -110,6 +110,6 @@ app.use(authRoutes);
 //   });
 // }
 
-app.listen(3000, () => {
-  console.log(`LMS server is running at: http://localhost:3000`);
+app.listen(process.env.PORT, () => {
+  console.log(`LMS server is running on ${PORT}`);
 });
