@@ -111,5 +111,5 @@ app.use(authRoutes);
 // }
 
 app.listen(process.env.PORT, () => {
-  console.log(`LMS server is running on ${process.env.PORT}`);
+  console.log(`LMS server is running`);
 });
